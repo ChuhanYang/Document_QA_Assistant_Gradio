@@ -2,7 +2,7 @@
 
 This is a lightweight, privacy-first LLM-powered application that allows you to upload a document (PDF, TXT, or DOCX), preview its contents, and ask questions about it — all **fully offline** using open-source tools.
 
-> 💡 Powered by a local language model (`gemm2a:2b` via [Ollama](https://ollama.com)) and fast embeddings (`MiniLM`) — no API keys, no internet required after setup.
+> 💡 Powered by a local language model (`gemma2:2b` via [Ollama](https://ollama.com)) and fast embeddings (`MiniLM`) — no API keys, no internet required after setup.
 
 ---
 
