@@ -2,7 +2,7 @@
 
 This is a lightweight, privacy-first LLM-powered application that allows you to upload a document (PDF, TXT, or DOCX), preview its contents, and ask questions about it — all **fully offline** using open-source tools.
 
-> 💡 Powered by a local language model (`gemma:2b` via [Ollama](https://ollama.com)) and fast embeddings (`MiniLM`) — no API keys, no internet required after setup.
+> 💡 Powered by a local language model (`gemm2a:2b` via [Ollama](https://ollama.com)) and fast embeddings (`MiniLM`) — no API keys, no internet required after setup.
 
 ---
 
@@ -14,14 +14,13 @@ This is a lightweight, privacy-first LLM-powered application that allows you to 
 - 🗂️ Multi-format support (UTF-8 and non-standard encodings)
 - 💬 Interactive **chat history**
 - 📎 Downloadable Q&A transcript
-- 🔐 100% local, secure, and open source
 
 ---
 
 ## 🚀 Demo
 
 ![Demo Screenshot](https://github.com/ChuhanYang/Document_QA_Assistant_Gradio/blob/756653d4823fd022ae97b8b0dfaa28d2d0afe64e/demo_preview.png)  
-> *Chatting with a research paper and getting an instant summary + Q&A.*
+> *Chatting with a article and getting an instant summary + Q&A.*
 
 ---
 
@@ -52,7 +51,7 @@ pip install -r requirements.txt
 Download [Ollama](https://ollama.com/download), then pull a lightweight local model:
 
 ```bash
-ollama pull gemma:2b
+ollama pull gemma2:2b
 ```
 
 > ℹ️ You can also use `llama2` or `mistral` if your system has enough RAM (≥7 GB).
@@ -106,20 +105,10 @@ Then open the local Gradio interface (usually at `http://127.0.0.1:7860`).
 
 ---
 
-## 📃 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 🙋‍♂️ Author
 
 **Chuhan Yang**  
-Data Scientist · LLM Enthusiast · Public Transit Analytics  
-[LinkedIn](https://www.linkedin.com/in/your-profile) • [GitHub](https://github.com/your-username)
+Data Scientist · ML Enthusiast · Public Transit Analytics  
+[LinkedIn](https://www.linkedin.com/in/chuhan-yang/) • [GitHub](https://github.com/ChuhanYang)
 
----
-
-> Built with 💡 curiosity and open-source spirit.
-```
 
