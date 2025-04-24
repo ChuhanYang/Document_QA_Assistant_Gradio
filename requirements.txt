@@ -1,0 +1,7 @@
+gradio
+llama-index
+llama-index-embeddings-ollama
+llama-index-embeddings-huggingface
+llama-index-llms-ollama
+pymupdf
+python-docx
